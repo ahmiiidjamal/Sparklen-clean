@@ -1,0 +1,15 @@
+/* تأثير الظهور عند التمرير */
+.scroll-element {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+}
+
+.scroll-element.scroll-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
